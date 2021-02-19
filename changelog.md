@@ -4,6 +4,7 @@
 
 * Laravel 8 support
 
+
 ## 2.2.2 - 2019-07-16
 
 * Fix adapter namespaces, change log updated
