@@ -16,6 +16,10 @@ use League\Flysystem\Cached\Storage\Memory as MemoryStore;
 use ItDevgroup\Flysystem\GoogleStorage\GoogleStorageAdapter;
 use League\Flysystem\FlysystemInterfaceAdapterInterface;
 
+/**
+ * Class GoogleCloudStorageServiceProvider
+ * @package ItDevgroup\LaravelGoogleCloudStorage
+ */
 class GoogleCloudStorageServiceProvider extends ServiceProvider
 {
     /**
@@ -83,7 +87,7 @@ class GoogleCloudStorageServiceProvider extends ServiceProvider
      * Create a new StorageClient
      *
      * @param  mixed $config
-     * @return \Google\Cloud\Storage\StorageClient
+     * @return StorageClient
      */
     private function createClient($config)
     {
